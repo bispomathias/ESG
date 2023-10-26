@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    background-color: rgb(53, 96, 107);
+    display: flex;
+}
+
+.spaceHeader{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & p{
+        color: gold;
+        font-size: 1.5em;
+        font-weight: bolder;
+    }
+}
+
+.spaceHeader>ul{
+    display: flex;
+    gap: 20px;
+    & li{
+        list-style: none;
+        color: gold;
+        font-size: 1.2em;
+    }
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+#tabela{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.logo{
+    width: max(10vw,150px);
+}
+
+#imp{
+    width: 500px;
+
+}
